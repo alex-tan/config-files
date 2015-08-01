@@ -1,0 +1,44 @@
+{
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "jsx": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "restParams": true,
+    "superInFunctions": true,
+    "templateStrings": true
+  },
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "parser": "babel-eslint",
+
+  "rules": {
+    "comma-dangle": 0,
+    "dot-location": [2, "object"],
+    "dot-notation": 2,
+    "eqeqeq": 2,
+    "new-cap": 0,
+    "no-const-assign": 2,
+    "no-else-return": 2,
+    "no-loop-func": 2,
+    "no-redeclare": 2,
+    "no-multi-spaces": 0,
+    "no-lonely-if": 2,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": 2,
+    "object-shorthand": [2, "methods"],
+    "quotes": [1, "single"],
+    "space-unary-ops": 0,
+    "strict": 2,
+    "vars-on-top": 2
+  }
+}
